@@ -1,7 +1,7 @@
     <html>
         <head>
-            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-            <link rel="icon" href="favicon.ico" type="image/x-icon">
+            <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+            <link rel="icon" href="/favicon.ico" type="image/x-icon">
             <title>Erongii's Choice</title>
             <style>
                 body {
@@ -14,12 +14,13 @@
         </head>
         <body>
             <h1 id="h2"></h1>
-            <img id="img" class="fit-picture" src="./bosch.jpeg" alt="Robert Bosch">
+            <h3>Bosch's Core YereongKim</h3>
+            <img id="img" class="fit-picture" alt="Robert Bosch">
             <script>
                 var str = document.getElementById("h2");
                 var imgTag = document.getElementById("img");
                 const strArr = ["YES","NO"]
-                const imgArr = ["./yes.jpeg","./no.jpeg"];
+                const imgArr = ["/yes.jpeg","/no.jpeg"];
                 var rand = Math.floor(Math.random()*100)%2;
                 str.innerHTML = strArr[rand];
                 imgTag.src = imgArr[rand];
